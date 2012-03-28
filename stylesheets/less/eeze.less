@@ -1,10 +1,10 @@
 @import "eeze-modules/copyright.less";
 
-// Baseline your CSS with the HTML5 Doctor Reset or normalize.css
-@html5-reset: "eeze-modules/html5_doctor.less"; //total minified eeze.css ~1.8k
-@normalize: "eeze-modules/normalize.less"; //total minified eeze.css ~3.3k
+@import "eeze-modules/html5_doctor.less"; //makes eeze.css total 3316 bytes (minified)
+//@import "eeze-modules/normalize.less"; //makes eeze.css total 4812 bytes (minified)
 
-@import @html5-reset;
+// Grids if you want to
+@import "eeze-modules/1140-grid.less"; //adds 1346 bytes (minified)
 
 // Reusable CSS
 @import "eeze-modules/reusables.less";
