@@ -1,0 +1,66 @@
+<!doctype html>
+<!--[if IE]><![endif]-->
+<!--[if lt IE 7]> <html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7]> <html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8]> <html class="ie ie8" lang="en"> <![endif]-->
+<!--[if IE 9]> <html class="ie ie9" lang="en"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title></title>
+  
+  <!-- og: == 'Open Graph Protocol' - Makes you Facebook "Like" Button & Share Friendly -->
+  <meta name="title" content="" property="og:title" />
+  <meta name="" content="" property="og:type" />
+  <meta name="" content="" property="og:url" />
+  <meta name="" content="" property="og:image" />
+  <meta name="" content="" property="og:site_name" />
+  <meta name="" content="" property="fb:admins" />
+  <meta name="description" content="" property="og:description" />
+  <meta name="copyright" content="" />
+  <meta name="author" content="" />
+ 
+  <link rel="stylesheet" href="base/base.css" media="all" />
+
+  <link rel="shortcut icon" href=""/>
+  <link rel="apple-touch-icon" href=""/>
+
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->  
+
+</head>
+<body>    
+  
+  
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js" type="text/javascript"></script>
+  <script src="base/base.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    (function($) {
+      $(document).ready(function{
+        base.inits.main.ready('See line 43 of base.html to trace this call.');
+      });
+      $(window).load(function(){
+        setTimeout(function(){ /* minimal timeout ensures things load **after** the browser spinner stops */
+          base.inits.main.load('See line 47 of base.html to trace this call.');
+          $(window).resize(function(){ /* when the window is scaled by the user - absolute element redraws */
+            base.inits.main.size('See line 50 of base.html to trace this call.');
+          });
+          $(window).scroll(function(){ /* when the window is scrolled by the user - absolute element redraws */
+            base.inits.main.scroll('See line 52 of base.html to trace this call.');
+          });   
+        }, 15);  
+      });   
+    })(jQuery);
+  </script>
+  
+  <!--[if lt IE 7 ]>
+    <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+    <script>window.attachEvent("onload",function(){CFInstall.check({mode:"overlay"})})</script>
+  <![endif]-->
+  
+</body>
+<!-- we built this city on rock and roll (and steeze.) - @cousinwil -->
+</html>

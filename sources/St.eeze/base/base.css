@@ -1,0 +1,297 @@
+/* Style + Ease = Steeze Front End Starter-Kit v 0.3
+   Author: Wil Everts - http://cousinwil.com - @cousinwil
+  
+   File: Reset, clearfix, & other goodies consolodated into one GET.
+                               (80 chars, the suggested maximum line length)--->
+  --------------------------------------------------------------------------- */
+
+/* html5doctor.com Reset Stylesheet 
+   v1.6
+   Last Updated: 2010-08-18
+   Author: Richard Clark - http://richclarkdesign.com 
+   Twitter: @rich_clark
+   
+   Rememeber to check for updates at html5doctor.com, just replace from below
+   this line to just above the "/* St.eeze add-ons" marker (line 119)  
+  --------------------------------------------------------------------------- */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  background:transparent;
+  border:0;
+  font-size:100%;
+  margin:0;
+  outline:0;
+  padding:0;
+  vertical-align:baseline;
+}
+
+body {
+  line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+  display:block;
+}
+
+nav ul {
+  list-style:none;
+}
+
+blockquote, q {
+  quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content:'';
+  content:none;
+}
+
+a {
+  background:transparent;
+  font-size:100%;
+  margin:0;
+  padding:0;
+  vertical-align:baseline;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color:#ff9;
+  color:#000;
+  text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color:#ff9;
+  color:#000; 
+  font-style:italic;
+  font-weight:bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+  border-bottom:1px dotted inherit;
+  cursor:help;
+}
+
+table {
+  border-collapse:collapse;
+  border-spacing:0;
+}
+
+/* change border color to suit your needs ----------------------------------- */
+hr {
+  border:0;   
+  border-top:1px solid #cccccc;
+  display:block;
+  height:1px;
+  margin:1em auto;
+  padding:0;
+  width: 98%;
+}
+
+input, select {
+  vertical-align:middle;
+}
+
+/* St.eeze add-ons ---------------------------------------------------------- */
+ 
+ul li, ol li {
+  list-style: none;
+}
+
+hr.dashed {
+  border-top: 1px dashed #cccccc;
+}
+hr.dotted {
+  border-top: 1px dotted #cccccc;
+}
+
+/* Browser Fix - clears out the javascript-animation-induced text flicker
+  --------------------------------------------------------------------------- */
+
+body {
+  -khtml-opacity: 0.99999; 
+  -moz-opacity: 0.99999; 
+  filter: alpha(opacity=99);
+  opacity: 0.99999; 
+}
+
+/* Helpful Reusables - CUSTOMIZE TO FIT YOUR NEEDS
+  --------------------------------------------------------------------------- */
+
+/* .offset is useful in bringing background image text into the page for 
+       screen readers and non-css browsers (like google's spider bot) - it's 
+       also better than text-offset because when clicked it doesn't create a 
+       dotted outline going offscreen. -------------------------------------- */
+.offset {
+  display: none;
+}
+
+.ellipsis {
+ -o-text-overflow: ellipsis;
+ overflow: hidden; 
+ text-overflow: ellipsis; 
+ text-wrap: none; 
+ white-space: nowrap; 
+ word-wrap: none;
+}
+
+/* for those elements with click events attached via js                       */
+.link { 
+  cursor: pointer;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+small, .small {
+  font-size: .8em;
+}
+
+.no-marg {
+  margin: 0;
+}
+
+.no-padd {
+  padding: 0;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+/* Clearfix CSS - clears floats within the containing element
+
+   Based on Tony Aslett's original 2004 version with .clearfix has a couple 
+   other bits I've picked up along the way
+  --------------------------------------------------------------------------- */
+
+.clearfix:after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  line-height: 0;
+  visibility: hidden;
+}
+.clearfix {
+    display: inline-block;
+}
+html[xmlns] .clearfix {
+  display: block;
+}
+/* targets the ie class that we add for IE 6 & 7 in bare-index.html --------- */
+.ie .clearfix { 
+  zoom: 1;  
+  display: block;
+}
+* html .clearfix {
+  height: 1%;
+}
+
+/* Sometimes you just have to use the old method... ------------------------- */
+.clear-fix {
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+
+/* div.relative is super-useful sets everything inside's absolute position to 
+       0. You can then use bottom or top, left or right & even use negative 
+       values all relative to the containing div... Far fewer js repositions. */
+.relative { 
+  position: relative;
+}
+
+/* .round doesn't work in ie, but you can use a js plugin to detect ie and 
+       hook onto this class and round it for you there or just let 'em deal
+       
+      - tweak the values to fit your needs ---------------------------------- */
+      
+.border-radius, .border-radius-4 { 
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.border-radius-8 { 
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+}
+
+/* .shadow places a nice drop shadow around your element 
+
+      - tweak the values to fit your needs ---------------------------------- */
+      
+.box-shadow, .box-shadow-4 {
+  -moz-box-shadow: 0 0 4px #0A0A0A;
+  -webkit-box-shadow: 0 0 4px #0A0A0A;
+  box-shadow: 0 0 4px #0A0A0A;
+}
+
+.box-shadow-6-1 {
+  -moz-box-shadow: 0 0 6px 1px #0A0A0A;
+  -webkit-box-shadow: 0 0 6px 1px #0A0A0A;
+  box-shadow: 0 0 6px 1px #0A0A0A;
+}
+
+.box-shadow-inset {
+  -moz-box-shadow: 0 0 6px 1px #0A0A0A;
+  -webkit-box-shadow: 0 0 6px 1px #0A0A0A;
+  box-shadow: 0 0 6px 1px #0A0A0A;
+}
+
+/* .background-gradient-vertical & .background-gradient-horizontal 
+     give you a vertical background gradient  
+     
+      - tweak the values to fit your needs ---------------------------------- */
+      
+.background-gradient-vertical {
+  background: #EFEFEF;
+  background: -moz-linear-gradient(top, #CCC, #EFEFEF);
+  background: -webkit-gradient(linear, 
+    left top, left bottom, from(#CCC), to(#EFEFEF));
+  filter: progid:DXImageTransform.Microsoft.Gradient(
+    StartColorStr='#CCC', EndColorStr='#EFEFEF', GradientType=0);
+}
+.background-gradient-horizontal {
+  background: #EFEFEF;
+  background: -moz-linear-gradient(left, #CCC, #EFEFEF);
+  background: -webkit-gradient(linear, 
+    left top, right top, from(#CCC), to(#EFEFEF));
+  filter: progid:DXImageTransform.Microsoft.Gradient(
+    StartColorStr='#CCC', EndColorStr='#EFEFEF', GradientType=0);
+}
+
+/* .rotate rotates an element */
+.rotate {
+  -moz-transform: rotate(-2deg);
+  -webkit-transform: rotate(-2deg);
+  -o-transform: rotate(-2deg);
+  -ms-transform: rotate(-2deg);
+  transform: rotate(-2deg);
+}

@@ -1,0 +1,47 @@
+Project Info:
+
+  * Steeze front-end starter kit 
+  * by Wil Everts (@cousinwil)
+  * http://st.eeze.us
+  * Version 0.3 - 9/4/2011
+
+  Yo, my name is Wil. I make stuff on the web for fun and profit. I'm a front
+  end web geek who works at Yammer as a Senior UI Engineer on the Web Team. This
+  is my personal boilerplate that I use to start my web projects. As I go along
+  I update this based on my usage of it in the wild. I've recently used this in
+  a few projects including:
+
+  - Yammer's API Developer Site, http://developer.yammer.com
+  - NodeConf Summer Camp's Site, http://www.nodeconf.com/summercamp.html
+  - The reimplementation of the old Powder Envy visualization (a precursor to the
+    new PE app, which is in-development now), http://powderenvy.com
+  - My Team's Node.ko project, http://bearshark.nko2.nodeknockout.com
+
+  Files:
+    st.eeze/
+      base/
+        base.css - reset, clearfix, a couple useful reusable classes & sample 
+                   CSS3 declarations consolodated into one GET.
+        base.js  - base site javascript object: google analytics, google web 
+                   fonts, init functions
+      rails_base/
+        app/views/layouts/base.html.erb - sample rails layout with some basic 
+                                          templating logic
+        public/javascripts/base.js      - standard version
+        public/stylesheets/app.css      - standard version
+        public/stylesheets/base.css     - standard version
+        public/stylesheets/app.css      - place for your app's css
+
+      base.html - base elements of a modern front end HTML5 template
+    
+
+  Documentation: http://st.eeze.us
+
+Licensed Components:
+
+  * jQuery, MIT/GPL license
+  * HTML5Doctor CSS, Creative Commons 2.0
+
+Everything else:
+
+  * Public Domain
