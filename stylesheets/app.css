@@ -1,6 +1,18 @@
-/* LESS Variables 
+/* app.less - The non-eeze based css generator for the application's CSS! 
   --------------------------------------------------------------------------- */
-/* Media Queries for size-specific layouts 
+/* css3.less - CSS3 mixings for faster coding - just pass the declaration once 
+         and it executes the browser specific prefixes also.
+  --------------------------------------------------------------------------- */
+/* variables.less - makes writing and updating CSS much fasterby allowing you
+       to set global colors, fonts, etc.
+  --------------------------------------------------------------------------- */
+/* typography.less - typography, reusable color classes
+  --------------------------------------------------------------------------- */
+/* buttons.less - set your button styles
+   ------------------------------------------------------------------------- */
+/* application.less - Base Global CSS
+  --------------------------------------------------------------------------- */
+/* media-queries.less - Media Queries for size-specific layouts 
   --------------------------------------------------------------------------- */
 @media only screen and (min-width: 1024px) {
   

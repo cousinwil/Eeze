@@ -1,4 +1,4 @@
-/* Reusables
+/* reusables.less - reusable classes.
   --------------------------------------------------------------------------- */
 .offset {
   display: none;
@@ -32,16 +32,20 @@ small, .small {
 .right {
   float: right;
 }
-.clearfix {
-  *zoom: 1;
-}
 .clearfix:after {
-  display: table;
-  content: "";
+  content: ".";
+  display: block;
   clear: both;
-}
-.clear-fix {
-  clear: both;
-  height: 0;
   visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+.clearfix {
+  display: inline-block;
+}
+html[xmlns] .clearfix {
+  display: block;
+}
+* html .clearfix {
+  height: 1%;
 }
