@@ -30,7 +30,7 @@ Unlike [Twitter Bootstrap](http://twitter.github.com/bootstrap/), Eeze comes as 
       * `copyright.less` - just a simple copyright stamper.
       * `css3.less` - the basic css3 less mixins, when used they automatically add the browser specific styles to your CSS
       * `html5_doctor.less`, `normalize.less` - use the html5 reset or normalize? Defaults to `normalize.css`
-      * `reusables` - 20 base styles that seem indespensible
+      * `reusables` - 11 base styles that seem indespensible
 
     * `app.less` - compiles the application less styles
     * `eeze.less` - compiles your custom eeze.css file
