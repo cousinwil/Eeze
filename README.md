@@ -29,12 +29,10 @@ Unlike [Twitter Bootstrap](http://twitter.github.com/bootstrap/) or [Skeleton](h
     * `eeze-modules/`
 
       * `grids/`
-
         * `1140-grid.less` - Eeze defaults to [http://cssgrid.net](http://cssgrid.net)'s 1140-grid _(update `stylesheets/less/eeze.less` to change to your preference.)
         * `960-grid.less` - TODO_
 
       * `resets/`
-
         * `html5-doctor.less` - use the html5 doctor reset
         * `normalize.less` - Eeze defaults to `normalize.css`
 
