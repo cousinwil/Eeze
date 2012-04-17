@@ -20,16 +20,26 @@ Unlike [Twitter Bootstrap](http://twitter.github.com/bootstrap/) or [Skeleton](h
     * `app-modules/`
       * `application.less` - empty to start
       * `buttons.less` - empty to start
+      * `copyright.less` - just a simple copyright stamper.
       * `media-queries.less` - sets up your media queries, pulls all the "responsive-" less files.
       * `responsive-full.less`, responsive-mobile.less, responsive-tablet.less - width-specific stylesheets
       * `typography` - empty to start, 
       * `variables` - empty to start,
 
     * `eeze-modules/`
-      * `1140-grid.less`, `960-grid.less` - choose your popular grid or import your own. Defaults to [http://cssgrid.net](http://cssgrid.net)'s 1140-grid _(update `stylesheets/less/eeze.less` to change to your preference.)_
+
+      * `grids/`
+
+        * `1140-grid.less` - Eeze defaults to [http://cssgrid.net](http://cssgrid.net)'s 1140-grid _(update `stylesheets/less/eeze.less` to change to your preference.)
+        * `960-grid.less` - TODO_
+
+      * `resets/`
+
+        * `html5-doctor.less` - use the html5 doctor reset
+        * `normalize.less` - Eeze defaults to `normalize.css`
+
       * `copyright.less` - just a simple copyright stamper.
       * `css3.less` - the basic css3 less mixins, when used they automatically add the browser specific styles to your CSS
-      * `html5_doctor.less`, `normalize.less` - use the html5 reset or normalize? Defaults to `normalize.css`
       * `reusables` - 11 base styles that seem indespensible
 
     * `app.less` - compiles the application less styles
