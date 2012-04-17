@@ -2,11 +2,13 @@
   --------------------------------------------------------------------------- */
 @import "eeze-modules/copyright.less";
 
-//@import "eeze-modules/html5_doctor.less"; //makes eeze.css total 3316 bytes (minified)
-@import "eeze-modules/normalize.less"; //makes eeze.css total 4812 bytes (minified)
+// WHICH RESET SHALL WE USE?
+@reset: html5-doctor; // html5-doctor or normalize
+@import "eeze-modules/grids/@reset.less"; 
 
-// Grids if you want to
-@import "eeze-modules/1140-grid.less"; //adds 1346 bytes (minified)
+// WHICH GRID SYSTEM SHALL WE USE?
+@grid: 1140-grid; // 1140-grid or 960-grid
+@import "eeze-modules/grids/@grid.less";
 
 // Reusable CSS
 @import "eeze-modules/reusables.less";
