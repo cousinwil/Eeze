@@ -1,10 +1,10 @@
-#Eeze v0.1
+#Eeze v0.2
 
 [http://eeze.us](http://eeze.us)
 
 
 ##What  
-Eeze is a clean slate for professional developers creating custom applications. eeze.min.css comes out of the box at under 6K (**before** G-Zipping, you can gain ~2k by swapping to the HTML5 Reset) and sets up a great LESS workflow with base LESS in one folder and user defined LESS in stylesheets/less/app-modules.
+Eeze is a clean slate for professional developers creating custom applications. eeze.min.css comes out of the box at under 5K (**before** G-Zipping, you can gain ~2k by swapping to the HTML5 Reset) and sets up a great LESS workflow with base LESS in one folder and user defined LESS in stylesheets/less/app-modules.
 
 ##Why
 Unlike [Twitter Bootstrap](http://twitter.github.com/bootstrap/) or [Skeleton](https://github.com/dhgamache/Skeleton), Eeze comes as a minimal starting point for your app. I’ve only included the most common building blocks and base file structure that you might need to create a custom application. There are no base preset styles to work around, delete, or overwrite. Just clone the app and start writing *your* code in seconds.
