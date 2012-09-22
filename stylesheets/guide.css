@@ -1,0 +1,79 @@
+/* style-guide.less - Eeze Library CSS by @cousinwil
+  --------------------------------------------------------------------------- */
+/* css3.less - CSS3 mix-ins for faster coding. Just pass the declaration once 
+         and it executes the browser specific prefixes also...
+
+         .test {
+           .round(8px);
+         }
+
+         ...gives you:
+
+         .test {
+           -moz-border-radius: 8px;
+           -webkit-border-radius: 8px;
+           border-radius: 8px;
+         }
+  --------------------------------------------------------------------------- */
+/* variables.less - makes writing and updating CSS much fasterby allowing you
+       to set global colors, fonts, etc.
+  --------------------------------------------------------------------------- */
+.main {
+  color: #0a0a0a;
+  background-color: #dddddd;
+}
+.highlight {
+  color: #f93333;
+}
+.alt {
+  color: #5cb3d1;
+  background-color: #c9c9c9;
+}
+code {
+  color: #f93333;
+  background-color: #c9c9c9;
+  border: 1px solid #5cb3d1;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  padding: 2px 4px;
+}
+pre {
+  background-color: #c9c9c9;
+  border: 1px solid #5cb3d1;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  color: #f93333;
+  display: block;
+  line-height: 18px;
+  margin: 10px 0;
+  padding: 8px;
+  white-space: pre;
+  white-space: pre-wrap;
+  word-break: break-all;
+  word-wrap: break-word;
+}
+.example {
+  border: 1px solid #0a0a0a;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  margin-bottom: 20px;
+  padding: 22px 10px 0;
+  position: relative;
+}
+.example::after {
+  border: 1px solid #0a0a0a;
+  -moz-border-radius: 2px 0 0 0;
+  -webkit-border-radius: 2px 0 0 0;
+  border-radius: 2px 0 0 0;
+  color: #5cb3d1;
+  content: "example";
+  font-size: 11px;
+  left: -1px;
+  padding: 3px;
+  position: absolute;
+  top: -1px;
+  z-index: 100;
+}

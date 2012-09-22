@@ -1,0 +1,68 @@
+/* style-guide.less - Eeze Library CSS by @cousinwil
+  --------------------------------------------------------------------------- */
+
+// We'll set up some basics in case there's nothing set up yet...
+@mainBG: #ddd;
+@altBG: #c9c9c9;
+@main: #0a0a0a;
+@highlight: #F93333;
+@alt: #5CB3D1;
+
+// Less Mixins for easier x-browser CSS3
+@import "eeze-modules/css3.less";
+// Less Variables
+@import "app-modules/variables.less";
+
+.main {
+  color: @main;
+  background-color: @mainBG;
+}
+.highlight {
+  color: @highlight;
+}
+.alt {
+  color: @alt;
+  background-color: @altBG;
+}
+
+
+code {
+  color: @highlight;
+  background-color: @altBG;
+  border: 1px solid @alt;
+  .round(2px);
+  padding: 2px 4px;
+}
+pre {
+  background-color: @altBG;
+  border: 1px solid @alt;
+  .round(2px);
+  color: @highlight;
+  display: block;
+  line-height: 18px;
+  margin: 10px 0;
+  padding: 8px;
+  white-space: pre;
+  white-space: pre-wrap;
+  word-break: break-all;
+  word-wrap: break-word;
+}
+.example {
+  border: 1px solid @main;
+  .round(2px);  
+  margin-bottom: 20px;
+  padding: 22px 10px 0;
+  position: relative;
+}
+.example::after {
+  border: 1px solid @main;
+  .round(2px 0 0 0);  
+  color: @alt;
+  content: "example";
+  font-size: 11px;
+  left: -1px;
+  padding: 3px;
+  position: absolute;
+  top: -1px;
+  z-index: 100;
+}

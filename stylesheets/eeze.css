@@ -445,12 +445,6 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-/* Zero out lists
-  --------------------------------------------------------------------------- */
-ul li,
-ol li {
-  list-style: none;
-}
 /* Browser Fix - clears out the javascript-animation-induced text flicker
   --------------------------------------------------------------------------- */
 body {
@@ -471,7 +465,6 @@ body {
   max-width: 1140px;
   min-width: 755px;
   margin: 0 auto;
-  overflow: hidden;
 }
 .onecol,
 .twocol,
@@ -612,6 +605,9 @@ html[xmlns] .clearfix {
 .link {
   cursor: pointer;
 }
+.overflow-hidden {
+  overflow: hidden;
+}
 .no-margin {
   margin: 0;
 }
@@ -634,4 +630,7 @@ small,
 }
 .underline {
   text-decoration: underline;
+}
+.unstyled {
+  list-style: none;
 }
