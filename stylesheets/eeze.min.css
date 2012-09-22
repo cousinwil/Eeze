@@ -89,9 +89,13 @@ html[xmlns] .clearfix{display:block}
 .overflow-hidden{overflow:hidden}
 .no-margin{margin:0}
 .no-padding{padding:0}
+.offset{position:absolute;left:-9999px}
+.padded{padding:10px}
 .right{float:right}
 .relative{position:relative}
-.offset{position:absolute;left:-9999px}
 small,.small{font-size:.8em}
+.text-center{text-align:center}
+.text-left{text-align:left}
+.text-right{text-align:right}
 .underline{text-decoration:underline}
 .unstyled{list-style:none}
