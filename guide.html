@@ -164,25 +164,37 @@
         <div class="example">
           <ul class="unstyled">
             <li>
-              <input name="name" type="text" placeholder="Name">
+              <input id="name" name="name" type="text" placeholder="Name">
+              <label for="name"></label>
             </li>
             <li>
-              <input name="email" type="email" placeholder="Email">
+              <input id="email" name="email" type="email" placeholder="Email">
+              <label for="email"></label>
             </li>
             <li>
-              <textarea name="message" placeholder="Message"></textarea>
+              <textarea id="message" name="message" placeholder="Message"></textarea>
+              <label for="message"></label>
             </li>
             <li>
-              <input value="less than ideal" type="text" class="warning">
-              <span class="help-text warning">Warning: Something may have gone wrong</span>
+              <select name="select">
+                <option value="option one">Option One</option>
+                <option value="option two">Option Two</option>
+                <option value="option three">Option Three</option>
+                <option value="option four">Option Four</option>
+                <option value="option five">Option Five</option>
+              </select>
             </li>
             <li>
-              <input value="unsuccessful" type="text" class="error">
-              <span class="help-text error">Error: Please correct the error</span>
+              <input id="warning" name="warning" value="less than ideal" type="text" class="warning">
+              <label for="warning" class="warning">Warning: Something may have gone wrong</span>
             </li>
             <li>
-              <input value="successful" type="text" class="success">
-              <span class="help-text success">Success: Woohoo!</span>
+              <input id="error" name="error" value="unsuccessful" type="text" class="error">
+              <label for="error" class="error">Error: Please correct the error</span>
+            </li>
+            <li>
+              <input id="success" name="success" value="successful" type="text" class="success">
+              <label for="success" class="success">Success: Woohoo!</span>
             </li>
           </ul>
         </div>
@@ -196,16 +208,8 @@
               <input type="submit" class="button" value="Submit Button">
             </li>
             <li>
-              <pre>&lt;span class=&quot;btn-wrap&quot;&gt;
-&nbsp;&nbsp;&lt;a href=&quot;#&quot; class=&quot;btn white&quot;&gt;Gradient Button&lt;/a&gt;
-&lt;/span&gt;</pre>
-              <span class="btn-wrap no-margin"><a href="#" class="btn white">Gradient Button</a></span>
-            </li>
-            <li>
-              <pre>&lt;span class=&quot;btn-wrap flat&quot;&gt;
-&nbsp;&nbsp;&lt;a href=&quot;#&quot; class=&quot;btn white&quot;&gt;Flat Button&lt;/a&gt;
-&lt;/span&gt;</pre>
-              <span class="btn-wrap flat no-margin"><a href="#" class="btn white">Flat Button</a></span>
+              <pre>&lt;a href=&quot;#&quot; class=&quot;btn&quot;&gt;Gradient Button&lt;/a&gt;</pre>
+              <a href="#" class="btn">Link Button</a>
             </li>
           </ul>
         </div>
@@ -213,7 +217,7 @@
     </div>
 
     <div class="threecol last text-center">
-      <img src="images/cousinwil-80.png">
+      <h2 class="padded"><a href="http://cousinwil.com"><img src="images/cousinwil-80.png"></a><h2>
     </div>
   </div>
 
