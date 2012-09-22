@@ -1,37 +1,43 @@
 /* style-guide.less - Eeze Library CSS by @cousinwil
   --------------------------------------------------------------------------- */
 
-// We'll set up some basics in case there's nothing set up yet...
-@mainBG: #ddd;
-@altBG: #c9c9c9;
+// We'll set up some basic variables in case there's nothing set up yet...
+// Please, by all means remove these and replace with your own variables if you 
+//   have them. We include "app-modules/variables.less" below.
+
 @main: #0a0a0a;
-@highlight: #F93333;
+@mainBG: #ddd;
 @alt: #5CB3D1;
+@altBG: #c9c9c9;
+@highlight: #F93333;
 
 // Less Mixins for easier x-browser CSS3
 @import "eeze-modules/css3.less";
 // Less Variables
 @import "app-modules/variables.less";
 
+/* Note: obviously anything you do will overwrite this stuff, but feel free 
+   to totally clobber this file if it's in the way of making your style guide
+   perfect. This is intentded as a crutch for the pre-user-styles and early 
+   pahses to make this at the very least work.
+  --------------------------------------------------------------------------- */
 .main {
   color: @main;
   background-color: @mainBG;
-}
-.highlight {
-  color: @highlight;
 }
 .alt {
   color: @alt;
   background-color: @altBG;
 }
-
-
+.highlight {
+  color: @highlight;
+}
 code {
   color: @highlight;
   background-color: @altBG;
   border: 1px solid @alt;
   .round(2px);
-  padding: 2px 4px;
+  padding: 1px 2px;
 }
 pre {
   background-color: @altBG;
@@ -61,7 +67,7 @@ pre {
   content: "example";
   font-size: 11px;
   left: -1px;
-  padding: 3px;
+  padding: 4px;
   position: absolute;
   top: -1px;
   z-index: 100;

@@ -18,16 +18,21 @@
 /* variables.less - makes writing and updating CSS much fasterby allowing you
        to set global colors, fonts, etc.
   --------------------------------------------------------------------------- */
+/* Note:; obviously anything you do will overwrite this stuff, but feel free 
+   to totally clobber this file if it's in the way of making your style guide
+   perfect. This is intentded as a crutch for the pre-user-styles and early 
+   pahses to make this at the very least work.
+  --------------------------------------------------------------------------- */
 .main {
   color: #0a0a0a;
   background-color: #dddddd;
 }
-.highlight {
-  color: #f93333;
-}
 .alt {
   color: #5cb3d1;
   background-color: #c9c9c9;
+}
+.highlight {
+  color: #f93333;
 }
 code {
   color: #f93333;
@@ -36,7 +41,7 @@ code {
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
   border-radius: 2px;
-  padding: 2px 4px;
+  padding: 1px 2px;
 }
 pre {
   background-color: #c9c9c9;
@@ -72,7 +77,7 @@ pre {
   content: "example";
   font-size: 11px;
   left: -1px;
-  padding: 3px;
+  padding: 4px;
   position: absolute;
   top: -1px;
   z-index: 100;

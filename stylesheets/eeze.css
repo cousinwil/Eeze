@@ -614,15 +614,18 @@ html[xmlns] .clearfix {
 .no-padding {
   padding: 0;
 }
+.offset {
+  position: absolute;
+  left: -9999px;
+}
+.padded {
+  padding: 10px;
+}
 .right {
   float: right;
 }
 .relative {
   position: relative;
-}
-.offset {
-  position: absolute;
-  left: -9999px;
 }
 small,
 .small {
