@@ -79,10 +79,12 @@ img{height:auto}
 .row,body,.container{width:100%;min-width:0;margin-left:0;margin-right:0;padding-left:0;padding-right:0}
 .row .onecol,.row .twocol,.row .threecol,.row .fourcol,.row .fivecol,.row .sixcol,.row .sevencol,.row .eightcol,.row .ninecol,.row .tencol,.row .elevencol,.row .twelvecol{width:auto;float:none;margin-left:0;margin-right:0;padding-left:20px;padding-right:20px}
 }
+.absolute{position:absolute}
 .clearfix:after{content:".";display:block;clear:both;visibility:hidden;line-height:0;height:0}
 .clearfix{display:inline-block}
 html[xmlns] .clearfix{display:block}
 * html .clearfix{height:1%}
+.clear-fix{clear:both}
 .ellipsis{-o-text-overflow:ellipsis;overflow:hidden;text-overflow:ellipsis;text-wrap:none;white-space:nowrap;word-wrap:none}
 .fixed{position:fixed}
 .left{float:left}
