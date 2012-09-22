@@ -1,7 +1,19 @@
 /* app.less - The non-eeze based css generator for the application's CSS! 
   --------------------------------------------------------------------------- */
-/* css3.less - CSS3 mixings for faster coding - just pass the declaration once 
-         and it executes the browser specific prefixes also.
+/* css3.less - CSS3 mix-ins for faster coding. Just pass the declaration once 
+         and it executes the browser specific prefixes also...
+
+         .test {
+           .round(8px);
+         }
+
+         ...gives you:
+
+         .test {
+           -moz-border-radius: 8px;
+           -webkit-border-radius: 8px;
+           border-radius: 8px;
+         }
   --------------------------------------------------------------------------- */
 /* variables.less - makes writing and updating CSS much fasterby allowing you
        to set global colors, fonts, etc.

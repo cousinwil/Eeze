@@ -599,6 +599,9 @@ html[xmlns] .clearfix {
   white-space: nowrap;
   word-wrap: none;
 }
+.fixed {
+  position: fixed;
+}
 .left {
   float: left;
 }
@@ -610,6 +613,10 @@ html[xmlns] .clearfix {
 }
 .no-margin {
   margin: 0;
+}
+.no-no {
+  margin: 0;
+  padding: 0;
 }
 .no-padding {
   padding: 0;

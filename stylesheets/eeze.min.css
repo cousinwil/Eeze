@@ -84,10 +84,12 @@ img{height:auto}
 html[xmlns] .clearfix{display:block}
 * html .clearfix{height:1%}
 .ellipsis{-o-text-overflow:ellipsis;overflow:hidden;text-overflow:ellipsis;text-wrap:none;white-space:nowrap;word-wrap:none}
+.fixed{position:fixed}
 .left{float:left}
 .link{cursor:pointer}
 .overflow-hidden{overflow:hidden}
 .no-margin{margin:0}
+.no-no{margin:0;padding:0}
 .no-padding{padding:0}
 .offset{position:absolute;left:-9999px}
 .padded{padding:10px}

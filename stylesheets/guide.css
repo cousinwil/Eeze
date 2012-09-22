@@ -60,7 +60,7 @@ pre {
   word-wrap: break-word;
 }
 .example {
-  border: 1px solid #0a0a0a;
+  border: 1px solid #dddddd;
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
   border-radius: 2px;

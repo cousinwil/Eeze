@@ -40,13 +40,13 @@
   <div class="row main">
     <div class="ninecol">
       <div class="padded">
-        <h1>Style Guide</h1>
+        <h1 id="guide-top">Style Guide</h1>
 
         <p class="highlight">If you haven't yet added any styles to app.css this probably doesn't yet look like much. It shouldn&rsquo;t. Eeze is a clean slate. You have all the materials you need to create fantasticly responsive web layouts without any pre-supposed styling to slow you down... <strong>GO!</strong></p>
 
         <p>This page has all the basic types of styles you&rsquo;ll need to make your site. This should have naturally taken the form of your application&rsquo;s styles if you're keeping them in app.css and you've overwritten the main, alt, and highlight color variables in <code>stylesheets/app-modules/variables.less</code>. You may want to edit in your navigation, header, footer, etc. to give it that extra look of authenticity.</p>
 
-        <h2>Headings</h2>
+        <h2 id="guide-h">Headings</h2>
 
         <p>All the heading styles <code>h1</code> through <code>h6</code></p>
 
@@ -59,7 +59,7 @@
           <h6>h6 Heading Text, almost like a side note or something...</h6>
         </div>
 
-        <h2>Paragraphs</h2>  
+        <h2 id="guide-p">Paragraphs</h2>  
 
         <p>Your standard <code>&lt;p&gt;</code> tags with <code>&lt;a&gt;</code> styles.</p> 
 
@@ -69,7 +69,7 @@
           <p>Wes anderson freegan shoreditch, bicycle rights vice mixtape craft beer twee trust fund biodiesel dreamcatcher farm-to-table street art messenger bag. Iphone gluten-free fanny pack fingerstache, tumblr freegan pinterest yr aesthetic gentrify master cleanse brooklyn sriracha cred ethical. Art party PBR lo-fi, williamsburg street art biodiesel vice keytar cred butcher readymade. Selvage 8-bit beard, gluten-free vinyl lomo dreamcatcher scenester fap keytar blog next level. Fingerstache next level +1 trust fund, jean shorts mustache cray. Iphone art party chambray, wayfarers truffaut cosby sweater pickled salvia gluten-free artisan cardigan locavore. Fingerstache before they sold out flexitarian, VHS williamsburg pitchfork truffaut carles lomo shoreditch marfa fap.</p>
         </div>
 
-        <h2>Blockquote</h2>
+        <h2 id="guide-blockquote">Blockquote</h2>
 
         <p>The <code>blockquote</code> style simply requires a <code>&lt;p&gt;</code> for the quote followed by a <code>&lt;small&gt;</code> with the quote&rsquo;s attribution.</p>
 
@@ -95,7 +95,7 @@
           </blockquote>
         </div>
 
-        <h2>Ordered List</h2>
+        <h2 id="guide-ol">Ordered List</h2>
 
         <p>Your standard <code>&lt;ol&gt;</code> tag with a <code>&lt;ul&gt;</code> sub-list.</p> 
 
@@ -116,7 +116,7 @@
           </ol>
         </div>
 
-        <h2>Unordered List</h2>
+        <h2 id="guide-ul">Unordered List</h2>
 
         <p>Your standard <code>&lt;ul&gt;</code> tag with a sub-list.</p> 
 
@@ -137,7 +137,7 @@
           </ul>
         </div>
 
-        <h2>Unstyled List</h2>
+        <h2 id="guide-unstyled">Unstyled List</h2>
         <p>A <code>&lt;ul class="unstyled"&gt;</code> tag (note the class) with a <code>&lt;ul&gt;</code> sub-list gives us an unstyled list.</p> 
 
         <div class="example">                     
@@ -157,7 +157,7 @@
           </ul>
         </div>
 
-        <h2>Form Elements</h2>
+        <h2 id="guide-form">Form Elements</h2>
 
         <p>Common <code>&lt;form&gt;</code> elements, including: <code>&lt;input&gt;</code>, <code>&lt;textarea&gt;</code>, along with <span class="error">.error</span>, <span class="warning">.warning</span>, and <span class="success">.success</span> classes for all your form validation needs.</p>
 
@@ -199,7 +199,7 @@
           </ul>
         </div>
         
-        <h2>Buttons</h2>
+        <h2 id="guide-btn">Buttons</h2>
 
         <div class="example">
           <ul class="unstyled">
@@ -216,8 +216,23 @@
       </div>
     </div>
 
-    <div class="threecol last text-center">
-      <h2 class="padded"><a href="http://cousinwil.com"><img src="images/cousinwil-80.png"></a><h2>
+    <div class="threecol last">
+      <div class="padded relative">
+        <div class="padded fixed">
+          <h2>Guide Sections <small><span class="small"><a href="#guide-top" class="highlight">top</a></span></small></h2>
+          <ul class="unstyled no-no">
+            <li><h3 class="no-no"><a href="#guide-h" class="highlight">Headings</a></h3></li>
+            <li><h3 class="no-no"><a href="#guide-p" class="highlight">Paragraphs</a></h3></li>
+            <li><h3 class="no-no"><a href="#guide-blockquote" class="highlight">Blockquotes</a></h3></li>
+            <li><h3 class="no-no"><a href="#guide-ol" class="highlight">Ordered Lists</a></h3></li>
+            <li><h3 class="no-no"><a href="#guide-ul" class="highlight">Unordered Lists</a></h3></li>
+            <li><h3 class="no-no"><a href="#guide-unstyled" class="highlight">Unstyled Lists</a></h3></li>
+            <li><h3 class="no-no"><a href="#guide-form" class="highlight">Form Elements</a></h3></li>
+            <li><h3 class="no-no"><a href="#guide-btn" class="highlight">Buttons</a></h3></li>
+          </ul>
+          <h2><a href="http://cousinwil.com"><img src="images/cousinwil-80.png"></a></h2>
+        </div>
+      </div>
     </div>
   </div>
 
