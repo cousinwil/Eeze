@@ -1,4 +1,4 @@
-#Eeze v0.2
+#Eeze v0.3
 
 [http://eeze.us](http://eeze.us)
 
