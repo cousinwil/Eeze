@@ -18,13 +18,13 @@ Unlike [Twitter Bootstrap](http://twitter.github.com/bootstrap/) or [Skeleton](h
   * `less/`
 
     * `app-modules/`
-      * `application.less` - empty to start
-      * `buttons.less` - empty to start
+      * `application.less` - empty to start - this is where *you* write all your base application styles.
+      * `buttons.less` - empty to start - this is where *you* add all your button styles.
       * `copyright.less` - just a simple copyright stamper.
       * `media-queries.less` - sets up your media queries, pulls all the "responsive-" less files.
       * `responsive-full.less`, responsive-mobile.less, responsive-tablet.less - width-specific stylesheets
-      * `typography` - empty to start, 
-      * `variables` - empty to start,
+      * `typography.less` - empty to start - this is where *you* keep all your typography, headings, and font declarations. 
+      * `variables.less` - empty to start - this is where *you* define all your color variables, font family variables, etc.
 
     * `eeze-modules/`
 
@@ -40,7 +40,7 @@ Unlike [Twitter Bootstrap](http://twitter.github.com/bootstrap/) or [Skeleton](h
       * `css3.less` - the basic css3 less mixins, when used they automatically add the browser specific styles to your CSS
       * `reusables` - 11 base styles that seem indespensible
 
-    * `app.less` - compiles the application less styles
+    * `app.less` - compiles the styles you have declared in the app-modules less files into app.css
     * `eeze.less` - compiles your custom eeze.css file
     * `guide.less` - compiles the style guide css, guide.css
 
