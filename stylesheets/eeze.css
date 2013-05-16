@@ -94,9 +94,7 @@ figure img {
 .row {
   width: 100%;
   max-width: 1140px;
-  min-width: 1140px;
-  /*min-width: 755px;*/
-
+  min-width: 755px;
   margin: 0 auto;
   overflow: hidden;
 }
@@ -175,9 +173,6 @@ img {
   visibility: hidden;
   line-height: 0;
   height: 0;
-}
-.clearfix {
-  display: inline-block;
 }
 html[xmlns] .clearfix {
   display: block;
