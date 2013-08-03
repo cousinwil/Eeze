@@ -1,7 +1,9 @@
-<html>
-<head><title>301 Moved Permanently</title></head>
-<body bgcolor="white">
-<center><h1>301 Moved Permanently</h1></center>
-<hr><center>nginx/1.1.19</center>
-</body>
-</html>
+{
+  "googleGroup": "group_name",
+  "irc": {"server": "irc.freenode.net", "channel": "#a_channel"},
+  "domain": "yoursite.com",
+  "sections": [
+    "layout",
+    "premium"
+  ]
+}
