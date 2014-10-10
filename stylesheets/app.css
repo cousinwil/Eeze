@@ -1,74 +1,22 @@
-/* app.less - CSS generator for the application's CSS! 
+/* EEZE v0.6 - https://github.com/cousinwil/Eeze 
+   My Application's CSS! 
   --------------------------------------------------------------------------- */
-/*---------------------------------------------------
-    LESS Elements 0.9
-  ---------------------------------------------------
-    A set of useful LESS mixins
-    More info at: http://lesselements.com
-  ---------------------------------------------------*/
+/*!
+ * Eeze v0.6
+ * http://eeze.us
+ *
+ * Copyright 2014, Wil Everts
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://eeze.us/license
+ */
 /* variables.less - makes writing and updating CSS much fasterby allowing you
        to set global colors, fonts, etc.
   --------------------------------------------------------------------------- */
 /* foundation.less - base element styles, typography, reusable classes
   --------------------------------------------------------------------------- */
-/* buttons.less - set your button styles
+/* button styles
    ------------------------------------------------------------------------- */
 /* application.less - Base Global CSS
   --------------------------------------------------------------------------- */
-/* media-queries.less - Media Queries for size-specific layouts 
+/* media-queries.less - Responsive CSS for Mobile Devices
   --------------------------------------------------------------------------- */
-/* Smaller screens */
-@media only screen and (max-width: 1023px) {
-  body {
-    font-size: 0.8em;
-    line-height: 1.5em;
-  }
-}
-/* Mobile */
-@media handheld, only screen and (max-width: 767px) {
-  body {
-    font-size: 16px;
-    -webkit-text-size-adjust: none;
-  }
-  .row,
-  body,
-  .container {
-    width: 100%;
-    min-width: 0;
-    margin-left: 0px;
-    margin-right: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-  .row .onecol,
-  .row .twocol,
-  .row .threecol,
-  .row .fourcol,
-  .row .fivecol,
-  .row .sixcol,
-  .row .sevencol,
-  .row .eightcol,
-  .row .ninecol,
-  .row .tencol,
-  .row .elevencol,
-  .row .twelvecol {
-    width: auto;
-    float: none;
-    margin-left: 0px;
-    margin-right: 0px;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-}
-@media only screen and (min-width: 1024px) {
-  /* responsive-full.less - Responsive CSS for Laptops and Desktops
-    --------------------------------------------------------------------------- */
-}
-@media only screen and (max-width: 1023px) {
-  /* responsice-tablet.less - Responsive CSS for Small Laptops and Tablets
-    --------------------------------------------------------------------------- */
-}
-@media handheld, only screen and (max-width: 767px) {
-  /* responsive-mobile.less - Responsive CSS for Mobile Devices
-    --------------------------------------------------------------------------- */
-}

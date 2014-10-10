@@ -1,20 +1,25 @@
-/* app.less - CSS generator for the application's CSS! 
+/* EEZE v0.6 - https://github.com/cousinwil/Eeze 
+   My Application's CSS! 
   --------------------------------------------------------------------------- */
+  
+@import "app-library/copyright.less";
 
 // Less Mixins for easier x-browser CSS3
-@import "base-modules/css3.less";
+@import "app-library/css3.less";
 
 // Less Variables
-@import "app-modules/variables.less";
+@import "app-styles/variables.less";
 
 // Typography
-@import "app-modules/foundation.less";
+@import "app-styles/foundation.less";
 
-// Buttons
-@import "app-modules/buttons.less";
+// Components
+@import "app-components/buttons.less";
+// @import "app-components/buttons.less";
+
 
 // Application Global Styles
-@import "app-modules/application.less";
+@import "app-styles/application.less";
 
 // Responsive CSS here we come!
-@import "base-modules/media-queries.less";
+@import "app-styles/media-queries.less";
