@@ -1,6 +1,10 @@
-/* EEZE v0.6 - https://github.com/cousinwil/Eeze 
-   My Application's CSS! 
-  --------------------------------------------------------------------------- */
+/*!
+ * YourApp v0.0
+ * http://
+ * app.css
+ *
+ * Copyright 2014, Your Name
+ */
 /*!
  * Eeze v0.6
  * http://eeze.us
@@ -9,14 +13,12 @@
  * Dual licensed under the MIT or GPL Version 2 licenses.
  * http://eeze.us/license
  */
-/* variables.less - makes writing and updating CSS much fasterby allowing you
-       to set global colors, fonts, etc.
-  --------------------------------------------------------------------------- */
-/* foundation.less - base element styles, typography, reusable classes
+/* app-styles/elements.less - My element styles
   --------------------------------------------------------------------------- */
 /* button styles
    ------------------------------------------------------------------------- */
-/* application.less - Base Global CSS
+/* app-styles/application.less - My Application's CSS!
   --------------------------------------------------------------------------- */
-/* media-queries.less - Responsive CSS for Mobile Devices
+/* app-styles/media-queries.less - Responsive CSS for Mobile Devices
   --------------------------------------------------------------------------- */
+/* BUILT WITH EEZE v0.6 - https://github.com/cousinwil/Eeze ----------------- */
