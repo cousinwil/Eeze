@@ -1,8 +1,7 @@
-/* EEZE v0.6 - https://github.com/cousinwil/Eeze 
-   Grids, Reset, and Base Reusables 
-  --------------------------------------------------------------------------- */
-  
 @import "app-library/copyright.less";
+
+/* Grids, Reset, and Base Reusables 
+  --------------------------------------------------------------------------- */
 
 // WHICH RESET DO YOU LIKE?
 //@import "app-library/reset/html5-doctor.less";
@@ -11,6 +10,13 @@
 // WHICH GRID SYSTEM SHALL WE USE?
 //@import "app-library/grids/1140-grid.less"; 
 //@import "app-library/grids/960-grid.less";
+//@import "app-library/grids/bootstrap-grid.less";
+//@import "app-library/grids/foundation-grid.less";
 
 // A small number of CSS classes that make prototyping quicker
-@import "app-library/reusables.less";
+@import "app-library/mixins/reusables.less";
+
+/* BUILT WITH EEZE v0.6 - https://github.com/cousinwil/Eeze ----------------- */
+
+// USAGE:
+// stylesheets usr$ lessc less/base.less > base.css
