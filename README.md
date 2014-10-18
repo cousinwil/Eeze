@@ -29,10 +29,23 @@ There are a few base files for you to work with...
     * `app.less` - compiles the styles you have declared into app.css
     * `base.less` - compiles your custom base.css file
     * `bootstrap.less` - compiles your own version of bootstrap.css
+    * `fonts.less` - compiles your custom fonts.css file
   * `app.css` - out of the box compiled CSS (doesn't look like much, it shouldn't until you write this part.)
-  * `base.css` - mix and match reusables, grids, normalize or reset, etc  
+  * `base.css` - mix and match reusables, grids, normalize or reset, etc 
+  * `fonts.css` - fontawesome, or whatever other icon fonts and custom web fonts you declare
 * `base.html` - base elements of a modern front end HTML5 template, ready to go!
 
+##Writing a new app.css, fonts.css, or base.css
+From the Eeze directory in your terminal run...
+
+###base.css: 
+`lessc stylesheets/less/app.less > stylesheets/app.css`
+
+###base.css: 
+`lessc stylesheets/less/base.less > stylesheets/base.css`
+
+###base.css: 
+`lessc stylesheets/less/fonts.less > stylesheets/fonts.css`
 
 ###Project Info:
 
