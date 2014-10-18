@@ -48,7 +48,7 @@ There are a few base files for you to work with... We use these to mix and match
 ###base.css:
   * Edit the imports to suit your preferences in stylesheets/less/base.less
     * Select a CSS reset or Normalize
-    * Add a gird like boostrap or another
+    * Add a grid like boostrap or foundation
       * Customize your bootstrap grid columns, gutters, etc in stylesheets/less/grids/bootstrap-reqs.less
     * Include generic reusable classes
   * From the Eeze directory in your terminal run: 
@@ -62,7 +62,9 @@ There are a few base files for you to work with... We use these to mix and match
 ###fonts.css:
   * Edit the imports to suit your preferences in stylesheets/less/fonts.less
     * Webfonts
-    * Icon Fonts
+    * Icon Fonts (some common open ones included with base library)
+      * Font Awesome
+      * Open Iconic 
   * From the Eeze directory in your terminal run: 
     * `lessc stylesheets/less/fonts.less > stylesheets/fonts.css`
 
