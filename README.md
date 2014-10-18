@@ -46,6 +46,8 @@ There are a few base files for you to work with... We use these to mix and match
     * `lessc stylesheets/less/app.less > stylesheets/app.css`
 
 ###base.css:
+This is all the foundational css that frees you up to create your custom css.
+
   * Edit the imports to suit your preferences in stylesheets/less/base.less
     * Select a CSS reset or Normalize
     * Add a grid like boostrap or foundation
@@ -55,6 +57,8 @@ There are a few base files for you to work with... We use these to mix and match
     * `lessc stylesheets/less/base.less > stylesheets/base.css`
 
 ###bootstrap.css:
+You would use bootstrap.css in place of base.css in the base.html template if you're using the entire bootstrap framework. Otherwise, if you just want grids you could use them from base.less
+
   * Edit the imports to suit your custom bootstrap needs in stylesheets/less/bootstrap.less
   * From the Eeze directory in your terminal run: 
     * `lessc stylesheets/less/bootstrap.less > stylesheets/bootstrap.css`
