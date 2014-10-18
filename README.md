@@ -9,7 +9,7 @@ We’ve included the most common building blocks and base file structure for a n
 
 
 ##How
-There are a few base files for you to work with...
+There are a few base files for you to work with... We use these to mix and match libraries we'd like to use to create our app. Want fontawesome icons, bootstrap grids, and lesshat mixins? No problem! By selecting the building blocks you want to use and commenting out the others you can quickly build the foundation of your app.
 
 * `images/` - where you put your images
 * `stylesheets/`
