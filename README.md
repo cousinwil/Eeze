@@ -33,16 +33,18 @@ There are a few base files for you to work with...
 * `base.html` - base elements of a modern front end HTML5 template, ready to go!
 
 ##Writing a new app.css, fonts.css, or base.css
-From the Eeze directory in your terminal run...
 
-###app.css: Edit your styles in stylesheets/less/app.less
-`lessc stylesheets/less/app.less > stylesheets/app.css`
+###app.css: 
+  * Edit your styles in stylesheets/less/app.less
+  * From the Eeze directory in your terminal run: `lessc stylesheets/less/app.less > stylesheets/app.css`
 
-###base.css: Edit your styles in stylesheets/less/base.less
-`lessc stylesheets/less/base.less > stylesheets/base.css`
+###base.css:
+  * Edit your styles in stylesheets/less/base.less
+  * From the Eeze directory in your terminal run: `lessc stylesheets/less/base.less > stylesheets/base.css`
 
-###fonts.css: Edit your styles in stylesheets/less/fonts.less
-`lessc stylesheets/less/fonts.less > stylesheets/fonts.css`
+###fonts.css:
+  * Edit your styles in stylesheets/less/fonts.less
+  * From the Eeze directory in your terminal run: `lessc stylesheets/less/fonts.less > stylesheets/fonts.css`
 
 ###Project Info:
 
