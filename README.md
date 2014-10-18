@@ -35,7 +35,7 @@ There are a few base files for you to work with... We use these to mix and match
 * `base.html` - base elements of a modern front end HTML5 template, ready to go!
 
 
-##Writing/Updating app.css, base.css, bootstrap.css, fonts.css
+##Writing/Updating Included CSS Files
 
 ###app.css: 
   * Edit the imports to suit your preferences in stylesheets/less/app.less
