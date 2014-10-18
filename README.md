@@ -3,8 +3,10 @@
 ##What  
 Eeze is a clean slate for front end developers creating custom applications. Easy access to mix and match all your favorite open source libraries like bootstrap, font awesome, lesshat, etc.
 
+
 ##Why
 We’ve included the most common building blocks and base file structure for a new application's view layer. There are no base preset styles to work around, delete, or overwrite. Just clone the app, choose your presets, and start writing *your* code in seconds.
+
 
 ##How
 There are a few base files for you to work with...
@@ -32,6 +34,7 @@ There are a few base files for you to work with...
   * `fonts.css` - fontawesome, or whatever other icon fonts and custom web fonts you declare
 * `base.html` - base elements of a modern front end HTML5 template, ready to go!
 
+
 ##Writing a new app.css, fonts.css, or base.css
 
 ###app.css: 
@@ -49,7 +52,8 @@ There are a few base files for you to work with...
   * From the Eeze directory in your terminal run: 
     * `lessc stylesheets/less/fonts.less > stylesheets/fonts.css`
 
-###Project Info:
+
+##Project Info:
 
 Eeze front-end application starter kit   
 by Wil Everts (@cousinwil)  
