@@ -39,16 +39,24 @@ There are a few base files for you to work with... We use these to mix and match
 
 ###app.css: 
   * Edit your styles in stylesheets/less/app.less
+    * Select Less Mixins for easier x-browser CSS3
+    * Include your Less Variables
+    * Base Elements and Application Styles
   * From the Eeze directory in your terminal run: 
     * `lessc stylesheets/less/app.less > stylesheets/app.css`
 
 ###base.css:
   * Edit your styles in stylesheets/less/base.less
+    * Select a CSS reset or Normalize
+    * Add a gird like boostrap or another
+    * Include generic reusable classes
   * From the Eeze directory in your terminal run: 
     * `lessc stylesheets/less/base.less > stylesheets/base.css`
 
 ###fonts.css:
   * Edit your styles in stylesheets/less/fonts.less
+    * Webfonts
+    * Icon Fonts
   * From the Eeze directory in your terminal run: 
     * `lessc stylesheets/less/fonts.less > stylesheets/fonts.css`
 
