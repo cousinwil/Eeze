@@ -49,6 +49,7 @@ There are a few base files for you to work with... We use these to mix and match
   * Edit the imports to suit your preferences in stylesheets/less/base.less
     * Select a CSS reset or Normalize
     * Add a gird like boostrap or another
+      * Customize your bootstrap grid columns, gutters, etc in stylesheets/less/grids/bootstrap-reqs.less
     * Include generic reusable classes
   * From the Eeze directory in your terminal run: 
     * `lessc stylesheets/less/base.less > stylesheets/base.css`
