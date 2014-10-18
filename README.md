@@ -12,7 +12,7 @@ We’ve included the most common building blocks and base file structure for a n
 There are a few base files for you to work with...
 
 * `images/` - where you put your images
-  * `stylesheets/`
+* `stylesheets/`
   * `less/`
     * `app-styles/`
       * `application.less` - empty to start - this is where *you* write all your base application styles.
