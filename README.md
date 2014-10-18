@@ -35,26 +35,31 @@ There are a few base files for you to work with... We use these to mix and match
 * `base.html` - base elements of a modern front end HTML5 template, ready to go!
 
 
-##Writing a new app.css, fonts.css, or base.css
+##Writing/Updating app.css, base.css, bootstrap.css, fonts.css
 
 ###app.css: 
-  * Edit your styles in stylesheets/less/app.less
+  * Edit the imports to suit your preferences in stylesheets/less/app.less
     * Select Less Mixins for easier x-browser CSS3
     * Include your Less Variables
-    * Base Elements and Application Styles
+    * YOUR CUSTOM WRITTEN Application Styles
   * From the Eeze directory in your terminal run: 
     * `lessc stylesheets/less/app.less > stylesheets/app.css`
 
 ###base.css:
-  * Edit your styles in stylesheets/less/base.less
+  * Edit the imports to suit your preferences in stylesheets/less/base.less
     * Select a CSS reset or Normalize
     * Add a gird like boostrap or another
     * Include generic reusable classes
   * From the Eeze directory in your terminal run: 
     * `lessc stylesheets/less/base.less > stylesheets/base.css`
 
+###bootstrap.css:
+  * Edit the imports to suit your custom bootstrap needs in stylesheets/less/bootstrap.less
+  * From the Eeze directory in your terminal run: 
+    * `lessc stylesheets/less/bootstrap.less > stylesheets/bootstrap.css`
+
 ###fonts.css:
-  * Edit your styles in stylesheets/less/fonts.less
+  * Edit the imports to suit your preferences in stylesheets/less/fonts.less
     * Webfonts
     * Icon Fonts
   * From the Eeze directory in your terminal run: 
