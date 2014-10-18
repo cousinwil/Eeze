@@ -36,15 +36,18 @@ There are a few base files for you to work with...
 
 ###app.css: 
   * Edit your styles in stylesheets/less/app.less
-  * From the Eeze directory in your terminal run: `lessc stylesheets/less/app.less > stylesheets/app.css`
+  * From the Eeze directory in your terminal run: 
+  `lessc stylesheets/less/app.less > stylesheets/app.css`
 
 ###base.css:
   * Edit your styles in stylesheets/less/base.less
-  * From the Eeze directory in your terminal run: `lessc stylesheets/less/base.less > stylesheets/base.css`
+  * From the Eeze directory in your terminal run: 
+  `lessc stylesheets/less/base.less > stylesheets/base.css`
 
 ###fonts.css:
   * Edit your styles in stylesheets/less/fonts.less
-  * From the Eeze directory in your terminal run: `lessc stylesheets/less/fonts.less > stylesheets/fonts.css`
+  * From the Eeze directory in your terminal run: 
+  `lessc stylesheets/less/fonts.less > stylesheets/fonts.css`
 
 ###Project Info:
 
