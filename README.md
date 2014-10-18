@@ -12,20 +12,17 @@ There are a few base files for you to work with...
 * `images/` - where you put your images
 * `stylesheets/`
   * `less/`
-    * `app-components/`
-      * `buttons.less` - empty to start - this is where *you* write all your button styles.
-      * `nav.less` - empty to start - this is where *you* write all your nav styles.
-    * `app-library/`
-      * `bootstrap/`
-      * `grids/`
-      * `icons/`
-      * `mixins/`
-      * `reset/`
     * `app-styles/`
       * `application.less` - empty to start - this is where *you* write all your base application styles.
       * `elements.less` - empty to start - this is where *you* add all your base element styles.
       * `media-queries.less` - sets up your media queries
       * `variables.less` - empty to start - this is where *you* define all your color variables, font family variables, etc.
+    * `base-library/`
+      * `bootstrap/`
+      * `grids/`
+      * `icons/`
+      * `mixins/`
+      * `reset/`
     * `app.less` - compiles the styles you have declared into app.css
     * `base.less` - compiles your custom base.css file
     * `bootstrap.less` - compiles your own version of bootstrap.css
