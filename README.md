@@ -38,13 +38,13 @@ There are a few base files for you to work with...
 ##Writing a new app.css, fonts.css, or base.css
 From the Eeze directory in your terminal run...
 
-###base.css: 
+###app.css: 
 `lessc stylesheets/less/app.less > stylesheets/app.css`
 
 ###base.css: 
 `lessc stylesheets/less/base.less > stylesheets/base.css`
 
-###base.css: 
+###fonts.css: 
 `lessc stylesheets/less/fonts.less > stylesheets/fonts.css`
 
 ###Project Info:
